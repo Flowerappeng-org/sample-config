@@ -67,7 +67,7 @@ listen:
     module: ejabberd_http
     request_handlers:
       /admin: ejabberd_web_admin
-   -
+  -
     port: 5380
     ip: "::"
     tls: false
