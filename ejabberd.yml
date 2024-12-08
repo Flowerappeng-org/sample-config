@@ -67,13 +67,7 @@ listen:
     module: ejabberd_http
     request_handlers:
       /admin: ejabberd_web_admin
-  -
-    port: 5380
-    ip: "::"
-    tls: false
-    module: ejabberd_http
-    request_handlers:
-      /.well-known/acme-challenge: ejabberd_acme    
+      /.well-known/acme-challenge: ejabberd_acme  
   -
     port: 3478
     ip: "::"
