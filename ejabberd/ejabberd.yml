@@ -63,11 +63,17 @@ listen:
   -
     port: 5280
     ip: "::"
-    tls: false
+    tls: true
     module: ejabberd_http
     request_handlers:
       /admin: ejabberd_web_admin
-      /.well-known/acme-challenge: ejabberd_acme  
+   -
+    port: 5380
+    ip: "::"
+    tls: false
+    module: ejabberd_http
+    request_handlers:
+      /.well-known/acme-challenge: ejabberd_acme      
   -
     port: 3478
     ip: "::"
