@@ -63,6 +63,7 @@ listen:
   -
     port: 5280
     ip: "::"
+    tls: false
     module: ejabberd_http
     request_handlers:
       /admin: ejabberd_web_admin
@@ -93,7 +94,7 @@ acme:
  # cert_type: rsa
   ## Production environment (the default):
   #ca_url: "https://acme-v02.api.letsencrypt.org/directory"
-  ca_url: "https://acme-v02.api.letsencrypt.org"
+  ca_url: "https://acme-v02.api.letsencrypt.org/directory"
 
 s2s_use_starttls: optional
 
