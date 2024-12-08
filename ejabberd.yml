@@ -110,10 +110,10 @@ acl:
       - ::1/128
   admin:
     user:
-      - "admin@msg.bitwebsvc.com"
+      - "admin@msg-2.bitwebsvc.com"
   apicommands:
     user:
-      - "admin@msg.bitwebsvc.com"
+      - "admin@msg-2.bitwebsvc.com"
 access_rules:
   local:
     allow: local
