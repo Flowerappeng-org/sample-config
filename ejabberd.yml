@@ -89,7 +89,7 @@ acme:
   ## Staging environment
 #  ca_url: https://acme-staging-v02.api.letsencrypt.org/directory
   contact: "mailto:jhaigh@bitwebsvc.net"
-  auto: false
+  auto: true
  # cert_type: rsa
   ## Production environment (the default):
   #ca_url: "https://acme-v02.api.letsencrypt.org/directory"
