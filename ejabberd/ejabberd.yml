@@ -14,8 +14,8 @@
 ### Refer to http://en.wikipedia.org/wiki/YAML for the brief description.
 ###
 
-#hosts:
-#  - msg-2.bitwebsvc.com
+hosts:
+  - |service_host|
 loglevel: error
 
 #ca_file: /opt/ejabberd/conf/cacert.pem
@@ -116,10 +116,10 @@ acl:
       - ::1/128
   admin:
     user:
-      - "admin@msg-2.bitwebsvc.com"
+      - "admin@|service_host|"
   apicommands:
     user:
-      - "admin@msg-2.bitwebsvc.com"
+      - "admin@|service_host|"
 access_rules:
   local:
     allow: local
