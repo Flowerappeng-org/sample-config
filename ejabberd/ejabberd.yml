@@ -14,8 +14,8 @@
 ### Refer to http://en.wikipedia.org/wiki/YAML for the brief description.
 ###
 
-hosts:
-  - msg-2.bitwebsvc.com
+#hosts:
+#  - msg-2.bitwebsvc.com
 loglevel: error
 
 #ca_file: /opt/ejabberd/conf/cacert.pem
