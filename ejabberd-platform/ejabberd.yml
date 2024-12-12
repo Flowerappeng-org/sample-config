@@ -116,10 +116,10 @@ acl:
       - ::1/128
   admin:
     user:
-      - "admin@msg-0.platform-1.runwater.app"
+      - "adminentry"
   apicommands:
     user:
-      - "admin@msg-0.platform-1.runwater.app"
+      - "adminentry"
 access_rules:
   local:
     allow: local
