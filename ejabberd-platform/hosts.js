@@ -2,15 +2,15 @@ var fs = require('fs')
 var file = 'ejabberd.yml';
 
 var text = '';
-var subdomain = 'msg-';
-var domain = '.platform-1.runwater.app';
-for (let i = 0; i < 10; i++) {
-    text += '  - ' + subdomain + i + domain + "\n";
+var subdomain = process.env.SUBDOMAIN ?? 'msg-';
+var domain = process.env.DOMAIN ?? 'platform-1.runwater.app';
+for (let i = 0; i < process.env.TOTAL_TENANTS; i++) {
+    text += '  - ' + subdomain + i + "." + domain + "\n";
 }
 var final =  "hosts:\n" + text;
 
 fs.readFile(file, 'utf8', function (err,data) {
-      
+
   if (err) {
     return console.log(err);
   }
