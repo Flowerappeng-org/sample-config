@@ -106,15 +106,6 @@ hosts:
   - msg-89.platform-1.runwater.app
   - msg-90.platform-1.runwater.app
   - msg-91.platform-1.runwater.app
-  - msg-92.platform-1.runwater.app
-  - msg-93.platform-1.runwater.app
-  - msg-94.platform-1.runwater.app
-  - msg-95.platform-1.runwater.app
-  - msg-96.platform-1.runwater.app
-  - msg-97.platform-1.runwater.app
-  - msg-98.platform-1.runwater.app
-  - msg-99.platform-1.runwater.app
-  - msg-100.platform-1.runwater.app
 loglevel: error
 
 #ca_file: /opt/ejabberd/conf/cacert.pem
