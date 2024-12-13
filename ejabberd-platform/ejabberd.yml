@@ -116,10 +116,10 @@ acl:
       - ::1/128
   admin:
     user:
-      - "adminentry"
+      - "admin_user"
   apicommands:
     user:
-      - "adminentry"
+      - "admin_user"
 access_rules:
   local:
     allow: local
