@@ -4,7 +4,7 @@ var file = 'ejabberd.yml';
 var text = '';
 var subdomain = process.env.SUBDOMAIN ?? 'msg-';
 var domain = process.env.DOMAIN ?? 'platform-1.runwater.app';
-for (let i = 0; i < process.env.TOTAL_TENANTS; i++) {
+for (let i = 0; i < process.env.TOTAL_TENANTS ?? 25; i++) {
     text += '  - ' + subdomain + i + "." + domain + "\n";
 }
 var final =  "hosts:\n" + text;
