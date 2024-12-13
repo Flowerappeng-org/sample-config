@@ -10,7 +10,7 @@ for (let i = 0; i < process.env.TOTAL_TENANTS; i++) {
 var final =  "hosts:\n" + text;
 
 fs.readFile(file, 'utf8', function (err,data) {
-
+      
   if (err) {
     return console.log(err);
   }
