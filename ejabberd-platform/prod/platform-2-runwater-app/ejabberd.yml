@@ -15,26 +15,26 @@
 ###
 
 hosts:
-  - msg-1-agitatedbose.platform-2.runwater.app
-  - msg-2-agitatedbose.platform-2.runwater.app
-  - msg-3-agitatedbose.platform-2.runwater.app
-  - msg-4-agitatedbose.platform-2.runwater.app
-  - msg-5-agitatedbose.platform-2.runwater.app
-  - msg-6-agitatedbose.platform-2.runwater.app
-  - msg-7-agitatedbose.platform-2.runwater.app
-  - msg-8-agitatedbose.platform-2.runwater.app
-  - msg-9-agitatedbose.platform-2.runwater.app
-  - msg-10-agitatedbose.platform-2.runwater.app
-  - msg-11-agitatedbose.platform-2.runwater.app
-  - msg-12-agitatedbose.platform-2.runwater.app
-  - msg-13-agitatedbose.platform-2.runwater.app
-  - msg-14-agitatedbose.platform-2.runwater.app
-  - msg-15-agitatedbose.platform-2.runwater.app
-  - msg-16-agitatedbose.platform-2.runwater.app
-  - msg-17-agitatedbose.platform-2.runwater.app
-  - msg-18-agitatedbose.platform-2.runwater.app
-  - msg-19-agitatedbose.platform-2.runwater.app
-  - msg-20-agitatedbose.platform-2.runwater.app
+  - msg-1-thirstybohr.platform-2.runwater.app
+  - msg-2-thirstybohr.platform-2.runwater.app
+  - msg-3-thirstybohr.platform-2.runwater.app
+  - msg-4-thirstybohr.platform-2.runwater.app
+  - msg-5-thirstybohr.platform-2.runwater.app
+  - msg-6-thirstybohr.platform-2.runwater.app
+  - msg-7-thirstybohr.platform-2.runwater.app
+  - msg-8-thirstybohr.platform-2.runwater.app
+  - msg-9-thirstybohr.platform-2.runwater.app
+  - msg-10-thirstybohr.platform-2.runwater.app
+  - msg-11-thirstybohr.platform-2.runwater.app
+  - msg-12-thirstybohr.platform-2.runwater.app
+  - msg-13-thirstybohr.platform-2.runwater.app
+  - msg-14-thirstybohr.platform-2.runwater.app
+  - msg-15-thirstybohr.platform-2.runwater.app
+  - msg-16-thirstybohr.platform-2.runwater.app
+  - msg-17-thirstybohr.platform-2.runwater.app
+  - msg-18-thirstybohr.platform-2.runwater.app
+  - msg-19-thirstybohr.platform-2.runwater.app
+  - msg-20-thirstybohr.platform-2.runwater.app
 loglevel: error
 
 #ca_file: /opt/ejabberd/conf/cacert.pem
@@ -135,10 +135,10 @@ acl:
       - ::1/128
   admin:
     user:
-      - "admin@msg-1-agitatedbose.platform-2.runwater.app"
+      - "admin@msg-1-thirstybohr.platform-2.runwater.app"
   apicommands:
     user:
-      - "admin@msg-1-agitatedbose.platform-2.runwater.app"
+      - "admin@msg-1-thirstybohr.platform-2.runwater.app"
 access_rules:
   local:
     allow: local
