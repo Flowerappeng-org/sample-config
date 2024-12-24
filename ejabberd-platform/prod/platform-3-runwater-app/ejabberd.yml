@@ -135,10 +135,10 @@ acl:
       - ::1/128
   admin:
     user:
-      - "admin@msg-1-thirstybohr.platform-2.runwater.app"
+      - "admin@msg-1-festivebenz.platform-3.runwater.app"
   apicommands:
     user:
-      - "admin@msg-1-thirstybohr.platform-2.runwater.app"
+      - "admin@msg-1-festivebenz.platform-3.runwater.app"
 access_rules:
   local:
     allow: local
